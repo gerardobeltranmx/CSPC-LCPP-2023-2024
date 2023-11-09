@@ -5,7 +5,7 @@ using namespace std;
 int main()
  {
 /* Escribe un mensaje */ 
-cout <<  "Hola, mundo" << endl;
+cout <<  "Hola mundo" << endl;
 
 	return 0;
   }
