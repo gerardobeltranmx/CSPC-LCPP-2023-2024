@@ -1,12 +1,11 @@
 /* Mi primer programa escrito en C++
- Fecha:12-Agosto-2011*/
+ Fecha:11-Noviembre-2023*/
 #include<iostream>
 using namespace std;
-int main()
- {
-/* Escribe un mensaje */ 
-cout <<  "Hola Mundo" << endl;
+int main() 
+{
+	/* Escribe un mensaje */ 
+	cout <<  "Hola Mundo" << endl;
 
 	return 0;
-  }
-
+}
