@@ -3,11 +3,22 @@
   "configurations": [
     {
       "name": "C/C++ Runner: Debug Session",
-      "type": "lldb",
+      "type": "cppdbg",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/gerardo/Proyectos/Clases/CSPC-LCPP-2023-2024",
-      "program": "/Users/gerardo/Proyectos/Clases/CSPC-LCPP-2023-2024/build/Debug/outDebug"
+      "stopAtEntry": false,
+      "externalConsole": false,
+      "cwd": "/home/gerardo/Proyectos/Clases/CSPC-LCPP-2023-2024",
+      "program": "/home/gerardo/Proyectos/Clases/CSPC-LCPP-2023-2024/build/Debug/outDebug",
+      "MIMode": "lldb",
+      "miDebuggerPath": "lldb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
     }
   ]
 }
