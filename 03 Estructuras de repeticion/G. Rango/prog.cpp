@@ -8,9 +8,7 @@ int main()
 	cin >> m;
 
 	for (int i=n; i <= m; i++){
-
 		cout << i << endl;
-
 	}
 
 
